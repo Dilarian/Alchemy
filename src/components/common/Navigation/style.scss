@@ -1,0 +1,48 @@
+.containerNavigation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 404px;
+  .headerNavigation {
+    width: 404px;
+    height: 102px;
+  }
+  .imageHeader {
+    background-image: url("../../../img/NavigHeaderImg.png");
+    padding-bottom: 17px;
+  }
+  .wordHeader {
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    color: #ebebeb;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+  }
+  .wordContainer {
+    background-color: #eef6e6;
+    width: 404px;
+    height: 100%;
+    position: absolute;
+  }
+  .wordNavigation {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80px;
+    text-indent: 3%;
+  }
+  .link:hover {
+    text-decoration: underline;
+    cursor: url(/../src/img/link.cur), auto;
+  }
+  .containerNavigation.active {
+    transform: translateX(0);
+  }
+  .menu li {
+    list-style-type: none;
+  }
+}

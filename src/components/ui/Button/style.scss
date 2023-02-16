@@ -1,0 +1,17 @@
+.button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #57b846;
+  color: #ffffff;
+  border-radius: 100px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.button:hover {
+  color: #1b3815;
+  cursor: url(/../src/img/link.cur), auto;
+}

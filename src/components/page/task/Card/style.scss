@@ -1,0 +1,51 @@
+.containerTask {
+  background-color: #eef6e6;
+  width: 100%;
+  height: 80vh;
+  .taskWord {
+    max-width: 1610px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  .containerButton {
+    max-width: 1610px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .favouritesAdd {
+    font-size: 32px;
+    font-weight: bold;
+    background: #eef6e6;
+    border: 1px solid #000000;
+    position: fixed;
+    left: 160px;
+    bottom: 50px;
+  }
+  .favouritesAdd:hover {
+    color: #1b3815;
+    cursor: url(/../src/img/link.cur), auto;
+  }
+  .text {
+    font-size: 32px;
+    font-weight: bold;
+    background: #eef6e6;
+    border: 1px solid #000000;
+    position: fixed;
+    right: 160px;
+    bottom: 50px;
+  }
+  .text:hover {
+    color: #1b3815;
+    cursor: url(/../src/img/link.cur), auto;
+  }
+}
+.registrationNext {
+  cursor: url(/../src/img/link.cur), auto;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}

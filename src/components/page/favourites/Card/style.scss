@@ -1,0 +1,33 @@
+.containerFavourites {
+  background-color: #eef6e6;
+  width: 100%;
+  min-height: 775px;
+  .taskFormula {
+    background-color: #eef6e6;
+  }
+  .taskFavourites {
+    max-width: 1610px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  .taskNumber {
+    margin-top: 100px;
+  }
+  .formula {
+    margin-top: 10px;
+  }
+  .textFormula {
+    margin-top: 10px;
+  }
+  .answerClose {
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background-color: #eef6e6;
+    border: 0;
+  }
+}
