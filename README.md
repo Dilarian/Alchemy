@@ -1,3 +1,5 @@
+Hi! This is my first job. The training project was developed to study the interaction of backend and Redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
