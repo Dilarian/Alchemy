@@ -1,4 +1,4 @@
-Hi! This is my first job. The training project was developed to study the interaction of backend and Redux
+Hi! This is my first job. The training project was developed to study the interaction of backend and Redux. Now backend is dead, see the code
 
 # Getting Started with Create React App
 
