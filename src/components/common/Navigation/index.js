@@ -1,16 +1,24 @@
 import React from "react";
+import useNavigate from "react-router-dom";
 
 import IconNavigation from "../IconNavigation";
 
 import "./style.scss";
+import {ROUTE} from "../../../utils/const";
 
 function Navigation() {
+  const navigate = useNavigate();
   const onClickBodyMenu = (ev) => {
     ev.stopPropagation();
   };
 
+  const onClickNavigate = (path) => {
+    navigate(path)
+  }
+
   const onClickExit = () => {
     localStorage.removeItem("key");
+    navigate(ROUTE.entrance);
   };
   return (
     <div className="containerNavigation" onClick={onClickBodyMenu}>
@@ -21,27 +29,18 @@ function Navigation() {
         </div>
       </div>
       <div className="wordContainer">
-        <nav className="wordNavigation">
-          <li>
-            <a className="link" href="http://localhost:3000/task">
+            <span className="link" onClick={() => onClickNavigate(ROUTE.task)}>
               Задачи
-            </a>
-          </li>
-          <li>
-            <a className="link" href="http://localhost:3000/favourites">
+            </span>
+            <span className="link" onClick={() => onClickNavigate(ROUTE.favourites)}>
               Избранное
-            </a>
-          </li>
-          <li>
-            <a
+            </span>
+            <span
               onClick={onClickExit}
               className="link"
-              href="http://localhost:3000/Entrance"
             >
               Выйти
-            </a>
-          </li>
-        </nav>
+            </span>
       </div>
     </div>
   );
