@@ -53,7 +53,6 @@ function EntranceComponents() {
                 name={"Password"}
                 value={data.password}
               />
-              <a className="nextRegistration">Регестрация</a>
             </div>
             <Button onClick={onClickEnt}>Войти</Button>
           </div>
